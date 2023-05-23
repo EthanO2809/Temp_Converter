@@ -1,0 +1,81 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Podo Moro', sans-serif;
+    background-image: url(../images/Dance\ To\ Forget.jpg);
+}
+
+span {
+    color: red;
+}
+
+@import url('https://fonts.cdnfonts.com/css/podo-moro');
+@import url('https://fonts.cdnfonts.com/css/europhonic');
+@import url('https://fonts.cdnfonts.com/css/insaniburger-with-cheese');
+
+.h2 {
+    font-weight: 800;
+    font-size: 1.4rem;
+    font-family: 'Europhonic', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.h3 {
+    font-weight: 800;
+    font-family: 'Insaniburger with Cheese', sans-serif;
+    font-family: 'Insaniburger', sans-serif;
+}
+
+.wrapper {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
+    background-image: url("../images/temp.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+    box-shadow: rgb(0, 0, 0) 30px 30px 30px 0px;
+}
+
+button {
+    border-radius: 2rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: black;
+    color: orangered;
+    font-family: 'Podo Moro', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .90rem;
+    cursor: pointer;
+}
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background: transparent;
+    margin-bottom: 1rem;
+    font-family: 'Podo Moro', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.input {
+    flex:  1 1 40%;
+    margin: 1rem;
+    appearance: none;
+    background: none;
+    border: black solid .20rem;
+    outline: none;
+    transition: 0.4s;
+    color: black;
+    font-family: 'Podo Moro', sans-serif;
+    font-size: 1.5rem;
+}
